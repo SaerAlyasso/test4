@@ -12,6 +12,7 @@ public class CalculatorTest {
 	public void testAddNumbers() {
 		Calculator calc = new Calculator();
 		assertEquals(calc.addNumbers(5, 5),10,0.0);
+		
 	}
 
 	
@@ -23,9 +24,10 @@ public class CalculatorTest {
 	
 	
 	@Test
-	public void testAddNumber() {
+	public void testdivideNumber() {
 		Calculator calc = new Calculator();
 		assertEquals(calc.divideNumbers(5, 5),1,0.0);
+		assertEquals(calc.divideNumbers(0, 5),-100,0.0);
 	}
 	
 	@Test
