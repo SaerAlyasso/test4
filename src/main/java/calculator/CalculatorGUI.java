@@ -142,7 +142,7 @@ public class CalculatorGUI {
 				double first = Double.parseDouble(textField.getText());
 				double second = Double.parseDouble(textField_1.getText());
 				
-				lblResult.setText("Result: "+cal.mulipicateNumbers(first,second));
+				lblResult.setText("Result: "+cal.multiplicateNumbers(first,second));
 				
 				textField.setText(null);
 				textField_1.setText(null);

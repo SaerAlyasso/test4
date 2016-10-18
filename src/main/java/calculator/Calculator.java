@@ -13,10 +13,7 @@ public class Calculator {
 		return one-two;
 	}
 	
-	public double mulipicateNumbers(double one, double two){
-		
-		return one*two;
-	}
+	
 	
 	public double divideNumbers(double one, double two){
 		
@@ -25,5 +22,10 @@ public class Calculator {
 		}
 		
 		return one/two;
+	}
+
+	public double multiplicateNumbers(double first, double second) {
+		// TODO Auto-generated method stub
+		return first*second;
 	}
 }

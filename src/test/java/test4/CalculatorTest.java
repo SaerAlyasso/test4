@@ -21,15 +21,17 @@ public class CalculatorTest {
 		assertEquals(calc.subtractNumbers(10, 5),5,0.0);
 	}
 	
-	@Test
-	public void testMultiplicateNumber() {
-		Calculator calc = new Calculator();
-		assertEquals(calc.multiplicateNumbers(5, 5),25,0.0);
-	}
 	
 	@Test
 	public void testAddNumber() {
 		Calculator calc = new Calculator();
 		assertEquals(calc.divideNumbers(5, 5),1,0.0);
+	}
+	
+	@Test
+	public void testMultiplyNumbers(){
+		
+		Calculator calc = new Calculator();
+		assertEquals(calc.multiplicateNumbers(5, 5),25,0.0);
 	}
 }
